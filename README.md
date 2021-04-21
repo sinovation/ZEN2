@@ -9,7 +9,7 @@ ZEN 2.0 is based on the architecture of ZEN 1.0 with an update and adaptation fr
 
 ## Quick tour of pre-training and fine-tune using ZEN 2.0
 
-The library comprises several example scripts for conducting [**Chinese NLP tasks**](/datasets):
+The library comprises several example scripts for conducting [**Chinese/Arabic NLP tasks**](/datasets):
 
 - `run_pre_train.py`: an example pre-training ZEN 2.0
 - `run_sequence_level_classification.py`: an example fine-tuning ZEN 2.0 on DC, SA, SPM and NLI tasks (*sequence-level classification*)
