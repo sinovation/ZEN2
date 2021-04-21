@@ -4,7 +4,6 @@ ZEN 2.0 is based on the architecture of ZEN 1.0 with an update and adaptation fr
 　
 
 ![ZEN_model](http://zen.chuangxin.com/front/assets/zen2.png)
-<img src="http://zen.chuangxin.com/front/assets/zen2.png" width = "500" height = "300" alt="" align=center />
 
 　
 
