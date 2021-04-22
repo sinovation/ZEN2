@@ -5,7 +5,18 @@ ZEN 2.0 is based on the architecture of ZEN 1.0 with an update and adaptation fr
 
 ![ZEN_model](http://zen.chuangxin.com/front/assets/zen2.png)
 
-　
+## Citation
+
+If you use or extend our work, please cite the following [**paper**](https://arxiv.org/abs/1911.00720):
+```
+@article{Sinovation2021ZEN2,
+  title="{ZEN 2.0: Continue Training and Adaption for N-gram Enhanced Text Encoder}",
+  author={Yan Song, Tong Zhang, Yonggang Wang},
+  journal={ArXiv},
+  year={2021},
+  volume={}
+}
+```　
 
 ## Quick tour of pre-training and fine-tune using ZEN 2.0
 
