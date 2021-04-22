@@ -1,7 +1,7 @@
 ## Pre-trained and fine-tuned models
 
 | Section | BaiduNetDisk | Google Drive | Description |
-|-|-|
+|-|-|-|-|
 |zh_ZEN_base_2.0| [download](https://pan.baidu.com/s/1hryqMc__Db047ufGwkZ8Gg) (password: pco7) | [download]() | Chinese pre-trained base model|
 |zh_ZEN_large_2.0| [download](https://pan.baidu.com/s/1G8auYKnHTHUb9HN5EY5KJg) (password: 6afk) | [download]() | Chinese pre-trained large model|
 |ar_ZEN_base_2.0| [download]() (password: ) | [download]() | Arabic pre-trained base model|
