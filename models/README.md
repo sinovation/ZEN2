@@ -2,28 +2,28 @@
 
 | Section | BaiduNetDisk | Google Drive | Description |
 |-|-|-|-|
-|zh_ZEN_base_2.0| [download](https://pan.baidu.com/s/1hryqMc__Db047ufGwkZ8Gg) (password: pco7) | [download]() | Chinese pre-trained base model|
-|zh_ZEN_large_2.0| [download](https://pan.baidu.com/s/1G8auYKnHTHUb9HN5EY5KJg) (password: 6afk) | [download]() | Chinese pre-trained large model|
-|ar_ZEN_base_2.0| [download]() (password: ) | [download]() | Arabic pre-trained base model|
-|ar_ZEN_large_2.0| [download]() (password: ) | [download]() | Arabic pre-trained large model|
-|zh_ZEN_base_2.0_ft_msrcws| [download](https://pan.baidu.com/s/1lTMsQZA8Qre6tSE5u9pEfA) (password: 802f) | [download]() | Chinese fine-tuned base model for CWS on MSR-CWS dataset|
-|zh_ZEN_base_2.0_ft_ctb5| [download](https://pan.baidu.com/s/1P9Y57jDsdRE03ACW1-du-A) (password: ha89) | [download]() | Chinese fine-tuned base model for POS on CTB5 dataset |
-|zh_ZEN_base_2.0_ft_msraner| [download](https://pan.baidu.com/s/1H2gYKxOIX3WDxokPz0CFDw) (password: 8vpo) | [download]() | Chinese fine-tuned base model for NER on MSRA-NER dataset |
-|zh_ZEN_base_2.0_ft_chnsenticorp| [download](https://pan.baidu.com/s/1r3x-npuWjq1-WsYsOvUG3g) (password: b8nn) | [download]() | Chinese fine-tuned base model for SA on Chnsenticorp dataset |
-|zh_ZEN_base_2.0_ft_thucnews| [download](https://pan.baidu.com/s/1dBO3fAuuoAogPXST3f3vOQ) (password: 7uli) | [download]() | Chinese fine-tuned base model for DC on THUCNEWS dataset |
-|zh_ZEN_base_2.0_ft_lcqmc| [download](https://pan.baidu.com/s/1zp5dfEp-PNX32qqeXp5nWA) (password: wk45) | [download]() | Chinese fine-tuned base model for SPM on LCQMC dataset |
-|zh_ZEN_base_2.0_ft_bqcorpus| [download](https://pan.baidu.com/s/1TPgPLvFPWNsbhKybZKFuxQ) (password: wcjk) | [download]() | Chinese fine-tuned base model for SPM on BQ Corpus dataset |
-|zh_ZEN_base_2.0_ft_cmrc2018| [download](https://pan.baidu.com/s/1ApP1qFkiHj4In0zvMYWMbA) (password: un1r) | [download]() | Chinese fine-tuned base model for MRC on CMRC 2018 dataset |
-|zh_ZEN_base_2.0_ft_nlpccdbqa| [download](https://pan.baidu.com/s/1XbT5cMHKTJq3w7IDH0-_gw) (password: 6hsv) | [download]() | Chinese fine-tuned base model for QA on NLPCC-DBQA dataset |
-|zh_ZEN_base_2.0_ft_xnli| [download](https://pan.baidu.com/s/1A76iWOGm4C8QD4SnArXBfA) (password: 3nq2) | [download]() | Chinese fine-tuned base model for NLI on XNLI dataset |
-|zh_ZEN_large_2.0_ft_msrcws| [download]() (password: ) | [download]() | Chinese fine-tuned large model for CWS on MSR-CWS dataset|
-|zh_ZEN_large_2.0_ft_ctb5| [download](https://pan.baidu.com/s/1tIcmFJ8wFxmKKfYEegSodg) (password: 6ome) | [download]() | Chinese fine-tuned large model for POS on CTB5 dataset |
-|zh_ZEN_large_2.0_ft_msraner| [download]() (password: ) | [download]() | Chinese fine-tuned large model for NER on MSRA-NER dataset |
-|zh_ZEN_large_2.0_ft_chnsenticorp| [download](https://pan.baidu.com/s/1nWNeNpAnU8oZf-OnhgKeCg) (password: dvp9) | [download]() | Chinese fine-tuned large model for SA on Chnsenticorp dataset |
-|zh_ZEN_large_2.0_ft_thucnews| [download]() (password: ) | [download]() | Chinese fine-tuned large model for DC on THUCNEWS dataset |
-|zh_ZEN_large_2.0_ft_lcqmc| [download](https://pan.baidu.com/s/1e85coHMHf6TAdCZd3d9xRg) (password: ipcc) | [download]() | Chinese fine-tuned large model for SPM on LCQMC dataset |
-|zh_ZEN_large_2.0_ft_bqcorpus| [download](https://pan.baidu.com/s/19ZujuPyhM-vRgpSPJdv2Ew) (password: sper) | [download]() | Chinese fine-tuned large model for SPM on BQ Corpus dataset |
-|zh_ZEN_large_2.0_ft_cmrc2018| [download](https://pan.baidu.com/s/1wzT8uyXuNwwgmHAhhjJQwg) (password: 0m1r) | [download]() | Chinese fine-tuned large model for MRC on CMRC 2018 dataset |
-|zh_ZEN_large_2.0_ft_nlpccdbqa| [download]() (password: ) | [download]() | Chinese fine-tuned large model for QA on NLPCC-DBQA dataset |
-|zh_ZEN_large_2.0_ft_xnli| [download]() (password: ) | [download]() | Chinese fine-tuned large model for NLI on XNLI dataset |
+|zh_ZEN_base_2.0| [download](https://pan.baidu.com/s/1hryqMc__Db047ufGwkZ8Gg) (password: pco7) | [download](https://drive.google.com/drive/folders/1hbmuAF4RDyp-qRu_LMOA0ujHe0gVp6FL?usp=sharing) | Chinese pre-trained base model|
+|zh_ZEN_large_2.0| [download](https://pan.baidu.com/s/1G8auYKnHTHUb9HN5EY5KJg) (password: 6afk) | [download](https://drive.google.com/drive/folders/1pb8aa-eoLNfGCsNpwLcL4b5kEnY3k3Y_?usp=sharing) | Chinese pre-trained large model|
+|ar_ZEN_base_2.0| [download](https://pan.baidu.com/s/1Q26DeWSrbhCYfuMMujwZXQ) (password: nwpn) | [download](https://drive.google.com/drive/folders/1oyZXNAfOjW-qm9dm-XbfaHTPtPK6m7RT?usp=sharing) | Arabic pre-trained base model|
+|ar_ZEN_large_2.0| [download]() (password: ) | [download](https://drive.google.com/drive/folders/1mp-TxZqryIUrGFhCKyFTG2RXvU1x8dT-?usp=sharing) | Arabic pre-trained large model|
+|zh_ZEN_base_2.0_ft_msrcws| [download](https://pan.baidu.com/s/1lTMsQZA8Qre6tSE5u9pEfA) (password: 802f) | [download](https://drive.google.com/drive/folders/1SXPtC3mActhwMWupu-NHrJT7g112y8yU?usp=sharing) | Chinese fine-tuned base model for CWS on MSR-CWS dataset|
+|zh_ZEN_base_2.0_ft_ctb5| [download](https://pan.baidu.com/s/1P9Y57jDsdRE03ACW1-du-A) (password: ha89) | [download](https://drive.google.com/drive/folders/18G5NgV1jtZh_VDCqJ1pG6D_bfsa5M2bL?usp=sharing) | Chinese fine-tuned base model for POS on CTB5 dataset |
+|zh_ZEN_base_2.0_ft_msraner| [download](https://pan.baidu.com/s/1H2gYKxOIX3WDxokPz0CFDw) (password: 8vpo) | [download](https://drive.google.com/drive/folders/1NQCx2RnW3eGAwK3Y40n25fsP52edpQiA?usp=sharing) | Chinese fine-tuned base model for NER on MSRA-NER dataset |
+|zh_ZEN_base_2.0_ft_chnsenticorp| [download](https://pan.baidu.com/s/1r3x-npuWjq1-WsYsOvUG3g) (password: b8nn) | [download](https://drive.google.com/drive/folders/13UvYWT7CtYd7n6ki4R6AwrKEelQCG-9Q?usp=sharing) | Chinese fine-tuned base model for SA on Chnsenticorp dataset |
+|zh_ZEN_base_2.0_ft_thucnews| [download](https://pan.baidu.com/s/1dBO3fAuuoAogPXST3f3vOQ) (password: 7uli) | [download](https://drive.google.com/drive/folders/1K8yTPKtAMB3NMtsW3f3aNY8KC5lbp5ik?usp=sharing) | Chinese fine-tuned base model for DC on THUCNEWS dataset |
+|zh_ZEN_base_2.0_ft_lcqmc| [download](https://pan.baidu.com/s/1zp5dfEp-PNX32qqeXp5nWA) (password: wk45) | [download](https://drive.google.com/drive/folders/1xRL7EnkF-BpW0S_mOn6rQG9RlQ257zUD?usp=sharing) | Chinese fine-tuned base model for SPM on LCQMC dataset |
+|zh_ZEN_base_2.0_ft_bqcorpus| [download](https://pan.baidu.com/s/1TPgPLvFPWNsbhKybZKFuxQ) (password: wcjk) | [download](https://drive.google.com/drive/folders/1QnRMRgEXzA2WhCHw40EqVk8rhYbXXAFg?usp=sharing) | Chinese fine-tuned base model for SPM on BQ Corpus dataset |
+|zh_ZEN_base_2.0_ft_cmrc2018| [download](https://pan.baidu.com/s/1ApP1qFkiHj4In0zvMYWMbA) (password: un1r) | [download](https://drive.google.com/drive/folders/1rbzgvIKl11IOCc7NEnFkZmGQaM4eCnSQ?usp=sharing) | Chinese fine-tuned base model for MRC on CMRC 2018 dataset |
+|zh_ZEN_base_2.0_ft_nlpccdbqa| [download](https://pan.baidu.com/s/1XbT5cMHKTJq3w7IDH0-_gw) (password: 6hsv) | [download](https://drive.google.com/drive/folders/1dmePVTUxQXSIQwdr4IuNOj_lvasSiYzB?usp=sharing) | Chinese fine-tuned base model for QA on NLPCC-DBQA dataset |
+|zh_ZEN_base_2.0_ft_xnli| [download](https://pan.baidu.com/s/1A76iWOGm4C8QD4SnArXBfA) (password: 3nq2) | [download](https://drive.google.com/drive/folders/1590dStlrOUGDgEDie8gXT8vXnX9x9H5m?usp=sharing) | Chinese fine-tuned base model for NLI on XNLI dataset |
+|zh_ZEN_large_2.0_ft_msrcws| [download](https://pan.baidu.com/s/1rNnsxnH4WD_o4JjKMtgM9Q) (password: 9tdq) | [download](https://drive.google.com/drive/folders/119bvYhB5p0qrB3Drgo1-FwqEh4bMRNbx?usp=sharing) | Chinese fine-tuned large model for CWS on MSR-CWS dataset|
+|zh_ZEN_large_2.0_ft_ctb5| [download](https://pan.baidu.com/s/1tIcmFJ8wFxmKKfYEegSodg) (password: 6ome) | [download](https://drive.google.com/drive/folders/1-DKG8CHSzIJutaQFtoBaPRzEFJvAz6CG?usp=sharing) | Chinese fine-tuned large model for POS on CTB5 dataset |
+|zh_ZEN_large_2.0_ft_msraner| [download](https://pan.baidu.com/s/1Iw4XVF72eFecJ6cFS1-fyg) (password: egsp) | [download](https://drive.google.com/drive/folders/1ZpW1ibVXdJbiH95XHuah-qf_7_cwlmkR?usp=sharing) | Chinese fine-tuned large model for NER on MSRA-NER dataset |
+|zh_ZEN_large_2.0_ft_chnsenticorp| [download](https://pan.baidu.com/s/1nWNeNpAnU8oZf-OnhgKeCg) (password: dvp9) | [download](https://drive.google.com/drive/folders/17Oz0XKv6oHi7dNdJW5cgm7wJ0pyJsWnw?usp=sharing) | Chinese fine-tuned large model for SA on Chnsenticorp dataset |
+|zh_ZEN_large_2.0_ft_thucnews| [download](https://pan.baidu.com/s/1QQR6rnkmJoOtO0d5Et6M_w) (password: i19v) | [download](https://drive.google.com/drive/folders/1XZ_m7vLgpoyX1i61SH-3Nche0JGiRNGw?usp=sharing) | Chinese fine-tuned large model for DC on THUCNEWS dataset |
+|zh_ZEN_large_2.0_ft_lcqmc| [download](https://pan.baidu.com/s/1e85coHMHf6TAdCZd3d9xRg) (password: ipcc) | [download](https://drive.google.com/drive/folders/1IUToeaDvSgLURnUqMWI5RjvhgVOU0g_r?usp=sharing) | Chinese fine-tuned large model for SPM on LCQMC dataset |
+|zh_ZEN_large_2.0_ft_bqcorpus| [download](https://pan.baidu.com/s/19ZujuPyhM-vRgpSPJdv2Ew) (password: sper) | [download](https://drive.google.com/drive/folders/1VBiaGRFgyAsOoWZcd00O55Dvfa-QwcYY?usp=sharing) | Chinese fine-tuned large model for SPM on BQ Corpus dataset |
+|zh_ZEN_large_2.0_ft_cmrc2018| [download](https://pan.baidu.com/s/1wzT8uyXuNwwgmHAhhjJQwg) (password: 0m1r) | [download](https://drive.google.com/drive/folders/17yWuZc0cLUrrMqY1juW3vzer-gzkTE8h?usp=sharing) | Chinese fine-tuned large model for MRC on CMRC 2018 dataset |
+|zh_ZEN_large_2.0_ft_nlpccdbqa| [download](https://pan.baidu.com/s/14InVUlZ6wFz8HiiLjgw5HQ) (password: p858) | [download](https://drive.google.com/drive/folders/1Tr3HpfEd1Fsjcm7fQkBc_mW7A_AEM5O6?usp=sharing) | Chinese fine-tuned large model for QA on NLPCC-DBQA dataset |
+|zh_ZEN_large_2.0_ft_xnli| [download](https://pan.baidu.com/s/1kXC3fnYQSXYLNr5Ydamtdw) (password: 1s24) | [download](https://drive.google.com/drive/folders/1Pj6DqQI8S0hqKLODhlZD9cMkq75OeB6q?usp=sharing) | Chinese fine-tuned large model for NLI on XNLI dataset |
 
