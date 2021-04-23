@@ -25,7 +25,7 @@ The library comprises several example scripts for conducting [**Chinese/Arabic N
 - `run_pre_train.py`: an example pre-training ZEN 2.0
 - `run_sequence_level_classification.py`: an example fine-tuning ZEN 2.0 on DC, SA, SPM, NLI and QA tasks (*sequence-level classification*)
 - `run_token_level_classification.py`: an example fine-tuning ZEN 2.0 on CWS, POS and NER tasks (*token-level classification*)
-- `run_mrc.py`: an example fine-tuning ZEN 2.0 on MRC tasks
+- `run_mrc_task.py`: an example fine-tuning ZEN 2.0 on MRC tasks
 
 [**Examples**](/examples) of pre-training and fine-tune using ZEN 2.0.
 
