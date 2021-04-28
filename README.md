@@ -1,6 +1,6 @@
 # ZEN 2.0
 
-ZEN 2.0 is based on the architecture of ZEN 1.0 with an update and adaptation from three aspects, after which the model is upgraded into the same scale of BERT-large and applied to different languages (i.e., Chinese and Arabic).   First,  we  refine  the  representations  of n-grams by applying weights to the n-gram representations when integrating them into the character encoder.  Second, in the training stage, we mask n-grams/words, rather than characters, in the input text of the character encoders.  Third, we utilize relative positional encoding for the character encoder to model direction and distance information from the input text.  The structure of ZEN 2.0 is illustrated in the figure below.
+ZEN 2.0 is based on the architecture of [ZEN 1.0](https://github.com/sinovation/ZEN) with an update and adaptation from three aspects, after which the model is upgraded into the same scale of BERT-large and applied to different languages (i.e., Chinese and Arabic).   First,  we  refine  the  representations  of n-grams by applying weights to the n-gram representations when integrating them into the character encoder.  Second, in the training stage, we mask n-grams/words, rather than characters, in the input text of the character encoders.  Third, we utilize relative positional encoding for the character encoder to model direction and distance information from the input text.  The structure of ZEN 2.0 is illustrated in the figure below.
 　
 
 ![ZEN_model](http://zen.chuangxin.com/front/assets/zen2.png)
