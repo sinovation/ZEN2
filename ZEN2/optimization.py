@@ -17,7 +17,7 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-"""PyTorch optimization for BERT model."""
+"""PyTorch optimization for ZEN2 model."""
 
 import math
 import torch

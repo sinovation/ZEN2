@@ -13,12 +13,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-"""Run BERT on MRC."""
+"""Run MRC task on ZEN2 model."""
 
 from __future__ import absolute_import, division, print_function
 
-from collections import Counter
-import string
 import re
 import argparse
 import collections
@@ -35,31 +33,27 @@ import glob
 
 import numpy as np
 import torch
+import torch.distributed as dist
 from torch.utils.data import (DataLoader, RandomSampler, SequentialSampler,
                               TensorDataset)
 from torch.utils.data.distributed import DistributedSampler
 from tqdm import tqdm, trange
 
 from apex import amp
-from ZEN import LinearWarmUpScheduler
-from ZEN import ZenForQuestionAnswering, ZenConfig, WEIGHTS_NAME, CONFIG_NAME, VOCAB_NAME
-from ZEN import ZenNgramDict
-from ZEN import BertAdam
-from ZEN import (BasicTokenizer, BertTokenizer, whitespace_tokenize,
-                          _is_whitespace, convert_to_unicode, _is_punctuation, _is_control)
+from ZEN2 import LinearWarmUpScheduler
+from ZEN2 import ZenForQuestionAnswering, ZenConfig, WEIGHTS_NAME, CONFIG_NAME, VOCAB_NAME
+from ZEN2 import ZenNgramDict
+from ZEN2 import BertAdam
+from ZEN2 import (BasicTokenizer, BertTokenizer, whitespace_tokenize,
+                  _is_whitespace, convert_to_unicode, _is_punctuation, _is_control)
 import nltk
 
-if sys.version_info[0] == 2:
-    import cPickle as pickle
-else:
-    import pickle
 
 logging.basicConfig(format='%(asctime)s - %(levelname)s - %(name)s -   %(message)s',
                     datefmt='%m/%d/%Y %H:%M:%S',
                     level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-import torch.distributed as dist
 
 def get_rank():
     if not dist.is_available():

@@ -34,10 +34,10 @@ from tensorboardX import SummaryWriter
 from apex.optimizers import FusedLAMB
 from apex import amp
 
-from ZEN import WEIGHTS_NAME, CONFIG_NAME
-from ZEN import ZenConfig, ZenForPreTraining
-from ZEN import BertTokenizer, ZenNgramDict
-from ZEN import PolyWarmUpScheduler
+from ZEN2 import WEIGHTS_NAME, CONFIG_NAME
+from ZEN2 import ZenConfig, ZenForPreTraining
+from ZEN2 import BertTokenizer, ZenNgramDict
+from ZEN2 import PolyWarmUpScheduler
 
 class pretraining_dataset(Dataset):
 
