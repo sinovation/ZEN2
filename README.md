@@ -1,13 +1,16 @@
 # ZEN 2.0
 
-ZEN 2.0 is a pre-trained language model, which has Chinese and Arabic version. 
-It is based on the architecture of [ZEN 1.0](https://github.com/sinovation/ZEN) with an update and adaptation from the following three aspects:
+ZEN 2.0 is a pre-trained language model with Chinese and Arabic versions. 
+ZEN 2.0 is based on the architecture of [ZEN 1.0](https://github.com/sinovation/ZEN) with an update and adaptation from the following three aspects:
 
-- First,  we  refine  the  representations  of n-grams by applying weights to the n-gram representations when they are integrated into the character encoder.
-- Second, in the training stage, we mask n-grams/words, rather than characters, in the input text of the character encoders.
-- Third, we utilize relative positional encoding for the character encoder to model direction and distance information from the input text.
+- **Refined N-gram Representations**  
+We  refine  the  representations  of n-grams by applying weights to the n-gram representations when they are integrated into the character encoder.
+- **Whole N-gram Masking**  
+In the training stage, we mask n-grams/words, rather than characters, in the input text of the character encoders.
+- **Relative Positional Encoding**  
+We utilize relative positional encoding for the character encoder to model direction and distance information from the input text.
 
-The structure of ZEN 2.0 is illustrated in the following figure. You can find the elaboration of the difference between ZEN 2.0 and ZEN 1.0 at [here](./docs/README.md)
+The structure of ZEN 2.0 is illustrated in the following figure. We elaborate the differences between ZEN 2.0 and ZEN 1.0 at [here](./docs/README.md)
 　
 
 ![ZEN_model](./docs/figures/ngram_representation.png)
