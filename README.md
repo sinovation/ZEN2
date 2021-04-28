@@ -14,7 +14,6 @@ If you use or extend our work, please cite the following [**paper**](https://arx
   author={Yan Song, Tong Zhang, Yonggang Wang},
   journal={ArXiv},
   year={2021},
-  volume={}
 }
 ```
 
@@ -34,5 +33,5 @@ The library comprises several example scripts for conducting [**Chinese/Arabic N
 
 For help or issues using ZEN 2.0, please submit a GitHub issue.
 
-For personal communication related to ZEN 2.0, please contact chenguimin(`chenguimin@chuangxin.com`) or tianyuanhe(`yhtian@uw.edu`).
+For personal communication related to ZEN 2.0, please contact chenguimin (`chenguimin@chuangxin.com`) or tianyuanhe (`yhtian@uw.edu`).
 
