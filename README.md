@@ -3,7 +3,7 @@
 ZEN 2.0 is based on the architecture of [ZEN 1.0](https://github.com/sinovation/ZEN) with an update and adaptation from three aspects, after which the model is upgraded into the same scale of BERT-large and applied to different languages (i.e., Chinese and Arabic).   First,  we  refine  the  representations  of n-grams by applying weights to the n-gram representations when integrating them into the character encoder.  Second, in the training stage, we mask n-grams/words, rather than characters, in the input text of the character encoders.  Third, we utilize relative positional encoding for the character encoder to model direction and distance information from the input text.  The structure of ZEN 2.0 is illustrated in the figure below.
 　
 
-![ZEN_model](http://zen.chuangxin.com/front/assets/zen2.jpeg)
+![ZEN_model](https://github.com/sinovation/ZEN2/blob/main/docs/figures/overview.png)
 
 ## Citation
 
@@ -11,7 +11,7 @@ If you use or extend our work, please cite the following [**paper**](https://arx
 ```
 @article{Sinovation2021ZEN2,
   title="{ZEN 2.0: Continue Training and Adaption for N-gram Enhanced Text Encoder}",
-  author={Yan Song, Tong Zhang, Yonggang Wang},
+  author={Yan Song, Tong Zhang, Yonggang Wang, Kai-Fu Lee},
   journal={ArXiv},
   year={2021},
 }
