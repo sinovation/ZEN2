@@ -1,7 +1,13 @@
 # ZEN 2.0
 
-ZEN 2.0 is based on the architecture of [ZEN 1.0](https://github.com/sinovation/ZEN) with an update and adaptation from three aspects, after which the model is upgraded into the same scale of BERT-large and applied to different languages (i.e., Chinese and Arabic).   First,  we  refine  the  representations  of n-grams by applying weights to the n-gram representations when integrating them into the character encoder.  Second, in the training stage, we mask n-grams/words, rather than characters, in the input text of the character encoders.  Third, we utilize relative positional encoding for the character encoder to model direction and distance information from the input text.  The structure of ZEN 2.0 is illustrated in the figure below.
-　
+ZEN 2.0 is pre-trained language models for Chinese and Arabic.
+It is based on the architecture of [ZEN 1.0](https://github.com/sinovation/ZEN) with an update and adaptation from the following three aspects:
+
+- First,  we  refine  the  representations  of n-grams by applying weights to the n-gram representations when integrating them into the character encoder.  
+- Second, in the training stage, we mask n-grams/words, rather than characters, in the input text of the character encoders.  
+- Third, we utilize relative positional encoding for the character encoder to model direction and distance information from the input text.  
+
+The structure of ZEN 2.0 is illustrated in the figure below.
 
 ![ZEN_model](https://github.com/sinovation/ZEN2/blob/main/docs/figures/ngram_representation.png)
 
@@ -33,5 +39,5 @@ The library comprises several example scripts for conducting [**Chinese/Arabic N
 
 For help or issues using ZEN 2.0, please submit a GitHub issue.
 
-For personal communication related to ZEN 2.0, please contact chenguimin (`chenguimin@chuangxin.com`) or tianyuanhe (`yhtian@uw.edu`).
+For personal communication related to ZEN 2.0, please contact Guimin Chen (`chenguimin@chuangxin.com`) or Yuanhe Tian (`yhtian@uw.edu`).
 
