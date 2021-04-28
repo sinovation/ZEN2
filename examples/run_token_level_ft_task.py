@@ -13,7 +13,8 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-"""BERT finetuning runner."""
+
+"""Run token level classification task on ZEN model."""
 
 from __future__ import absolute_import, division, print_function
 
@@ -45,9 +46,9 @@ import torch.distributed as dist
 from apex import amp
 from seqeval.metrics import classification_report, f1_score
 
-from ZEN import BertTokenizer, BertAdam, LinearWarmUpScheduler
-from ZEN import ZenForTokenClassification, ZenConfig
-from ZEN import WEIGHTS_NAME, CONFIG_NAME, NGRAM_DICT_NAME, ZenNgramDict,VOCAB_NAME
+from ZEN2 import BertTokenizer, BertAdam, LinearWarmUpScheduler
+from ZEN2 import ZenForTokenClassification, ZenConfig
+from ZEN2 import WEIGHTS_NAME, CONFIG_NAME, NGRAM_DICT_NAME, ZenNgramDict,VOCAB_NAME
 
 logging.basicConfig(format = '%(asctime)s - %(levelname)s - %(name)s -   %(message)s',
                     datefmt = '%m/%d/%Y %H:%M:%S',

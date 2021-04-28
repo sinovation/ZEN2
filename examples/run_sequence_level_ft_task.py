@@ -13,7 +13,8 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-"""BERT finetuning runner."""
+
+"""Run sequence level classification task on ZEN model."""
 
 from __future__ import absolute_import, division, print_function
 
@@ -43,10 +44,10 @@ from apex import amp
 from scipy.stats import pearsonr, spearmanr
 from sklearn.metrics import matthews_corrcoef, f1_score
 
-from ZEN import BertTokenizer, BertAdam, LinearWarmUpScheduler
-from ZEN import ZenForSequenceClassification, ZenConfig
-from ZEN import ZenNgramDict
-from ZEN import WEIGHTS_NAME, CONFIG_NAME, NGRAM_DICT_NAME, VOCAB_NAME
+from ZEN2 import BertTokenizer, BertAdam, LinearWarmUpScheduler
+from ZEN2 import ZenForSequenceClassification, ZenConfig
+from ZEN2 import ZenNgramDict
+from ZEN2 import WEIGHTS_NAME, CONFIG_NAME, NGRAM_DICT_NAME, VOCAB_NAME
 
 logging.basicConfig(format = '%(asctime)s - %(levelname)s - %(name)s -   %(message)s',
                     datefmt = '%m/%d/%Y %H:%M:%S',
