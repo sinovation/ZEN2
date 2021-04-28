@@ -1,11 +1,24 @@
-## Pre-trained and fine-tuned models
+## Pre-trained Language models 
 
+### Chinese
 | Section | BaiduNetDisk | Google Drive | Description |
 |-|-|-|-|
 |zh_ZEN_base_2.0| [download](https://pan.baidu.com/s/1hryqMc__Db047ufGwkZ8Gg) (password: pco7) | [download](https://drive.google.com/drive/folders/1hbmuAF4RDyp-qRu_LMOA0ujHe0gVp6FL?usp=sharing) | Chinese pre-trained base model|
 |zh_ZEN_large_2.0| [download](https://pan.baidu.com/s/1G8auYKnHTHUb9HN5EY5KJg) (password: 6afk) | [download](https://drive.google.com/drive/folders/1pb8aa-eoLNfGCsNpwLcL4b5kEnY3k3Y_?usp=sharing) | Chinese pre-trained large model|
+
+
+### Arabic
+| Section | BaiduNetDisk | Google Drive | Description |
+|-|-|-|-|
 |ar_ZEN_base_2.0| [download](https://pan.baidu.com/s/1Q26DeWSrbhCYfuMMujwZXQ) (password: nwpn) | [download](https://drive.google.com/drive/folders/1oyZXNAfOjW-qm9dm-XbfaHTPtPK6m7RT?usp=sharing) | Arabic pre-trained base model|
 |ar_ZEN_large_2.0| [download](https://pan.baidu.com/s/1tR5U2G9Ov_x17Xx_BXcjVQ) (password: 3k8o) | [download](https://drive.google.com/drive/folders/1mp-TxZqryIUrGFhCKyFTG2RXvU1x8dT-?usp=sharing) | Arabic pre-trained large model|
+
+
+## Fine-tuned Models
+
+### Chinese
+| Section | BaiduNetDisk | Google Drive | Description |
+|-|-|-|-|
 |zh_ZEN_base_2.0_ft_msrcws| [download](https://pan.baidu.com/s/1lTMsQZA8Qre6tSE5u9pEfA) (password: 802f) | [download](https://drive.google.com/drive/folders/1SXPtC3mActhwMWupu-NHrJT7g112y8yU?usp=sharing) | Chinese fine-tuned base model for CWS on MSR-CWS dataset|
 |zh_ZEN_base_2.0_ft_ctb5| [download](https://pan.baidu.com/s/1P9Y57jDsdRE03ACW1-du-A) (password: ha89) | [download](https://drive.google.com/drive/folders/18G5NgV1jtZh_VDCqJ1pG6D_bfsa5M2bL?usp=sharing) | Chinese fine-tuned base model for POS on CTB5 dataset |
 |zh_ZEN_base_2.0_ft_msraner| [download](https://pan.baidu.com/s/1H2gYKxOIX3WDxokPz0CFDw) (password: 8vpo) | [download](https://drive.google.com/drive/folders/1NQCx2RnW3eGAwK3Y40n25fsP52edpQiA?usp=sharing) | Chinese fine-tuned base model for NER on MSRA-NER dataset |
@@ -26,6 +39,12 @@
 |zh_ZEN_large_2.0_ft_cmrc2018| [download](https://pan.baidu.com/s/1wzT8uyXuNwwgmHAhhjJQwg) (password: 0m1r) | [download](https://drive.google.com/drive/folders/17yWuZc0cLUrrMqY1juW3vzer-gzkTE8h?usp=sharing) | Chinese fine-tuned large model for MRC on CMRC 2018 dataset |
 |zh_ZEN_large_2.0_ft_nlpccdbqa| [download](https://pan.baidu.com/s/14InVUlZ6wFz8HiiLjgw5HQ) (password: p858) | [download](https://drive.google.com/drive/folders/1Tr3HpfEd1Fsjcm7fQkBc_mW7A_AEM5O6?usp=sharing) | Chinese fine-tuned large model for QA on NLPCC-DBQA dataset |
 |zh_ZEN_large_2.0_ft_xnli| [download](https://pan.baidu.com/s/1kXC3fnYQSXYLNr5Ydamtdw) (password: 1s24) | [download](https://drive.google.com/drive/folders/1Pj6DqQI8S0hqKLODhlZD9cMkq75OeB6q?usp=sharing) | Chinese fine-tuned large model for NLI on XNLI dataset |
+
+
+### Arabic
+
+| Section | BaiduNetDisk | Google Drive | Description |
+|-|-|-|-|
 |ar_ZEN_base_2.0_ft_atb| [download](https://pan.baidu.com/s/1bxEUna3Fb3M6I09siltTiQ) (password: kb60) | [download](https://drive.google.com/drive/folders/1Fm8P6Xf_EpJO0tpZqJSG3tvwHEk1CvtU?usp=sharing) | Arabic fine-tuned base model for POS on ATB dataset |
 |ar_ZEN_base_2.0_ft_anercorp| [download](https://pan.baidu.com/s/19RLtfSVIGzlxKYvxJWmyoA) (password: o273) | [download](https://drive.google.com/drive/folders/1JHT6B2jk8Ui4Sedj3yl3mHNiFgRGR8Ps?usp=sharing) | Arabic fine-tuned base model for NER on ANERCorp dataset |
 |ar_ZEN_base_2.0_ft_aqmar| [download](https://pan.baidu.com/s/14t5Z5ixvePQyC0Nzl_ieNA) (password: a9da) | [download](https://drive.google.com/drive/folders/1qmzXzZBONd-m84eJt62PR6Emj-JLxUfg?usp=sharing) | Arabic fine-tuned base model for NER on AQMAR dataset |
