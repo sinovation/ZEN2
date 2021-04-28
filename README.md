@@ -10,7 +10,7 @@ In the training stage, we mask n-grams/words, rather than characters, in the inp
 - **Relative Positional Encoding**  
 We utilize relative positional encoding for the character encoder to model direction and distance information from the input text.
 
-The structure of ZEN 2.0 is illustrated in the following figure. We elaborate the differences between ZEN 2.0 and ZEN 1.0 at [here](./docs/README.md)
+The structure of ZEN 2.0 is illustrated in the following figure. We elaborate the differences between ZEN 2.0 and ZEN 1.0 at [here](./docs/README.md).
 　
 
 ![ZEN_model](./docs/figures/ngram_representation.png)
