@@ -17,12 +17,12 @@ The structure of ZEN 2.0 is illustrated in the following figure. We elaborate th
 
 ## Citation
 
-If you use or extend our work, please cite the following [**paper**](https://arxiv.org/abs/1911.00720):
+If you use or extend our work, please cite the following [**paper**](https://arxiv.org/abs/2105.01279):
 ```
 @article{Sinovation2021ZEN2,
-  title="{ZEN 2.0: Continue Training and Adaption for N-gram Enhanced Text Encoder}",
+  title="{ZEN 2.0: Continue Training and Adaption for N-gram Enhanced Text Encoders}",
   author={Yan Song, Tong Zhang, Yonggang Wang, Kai-Fu Lee},
-  journal={ArXiv},
+  journal={arXiv preprint arXiv:1911.00720},
   year={2021},
 }
 ```
