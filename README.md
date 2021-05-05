@@ -22,7 +22,7 @@ If you use or extend our work, please cite the following [**paper**](https://arx
 @article{Sinovation2021ZEN2,
   title="{ZEN 2.0: Continue Training and Adaption for N-gram Enhanced Text Encoders}",
   author={Yan Song, Tong Zhang, Yonggang Wang, Kai-Fu Lee},
-  journal={arXiv preprint arXiv:1911.00720},
+  journal={arXiv preprint arXiv:2105.01279},
   year={2021},
 }
 ```
