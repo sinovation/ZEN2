@@ -747,7 +747,10 @@ def evaluate(args, model, tokenizer, ngram_dict, processor, label_list, device, 
     y_true = []
     y_pred = []
     label_map = {i: label for i, label in enumerate(label_list, 1)}
-    label_map[0] = "[PAD]"
+    if args.task_name[:3] == 'cws':
+        label_map[0] = "S"
+    else:
+        label_map[0] = "O"
     nb_tr_examples, nb_tr_steps = 0, 0
 
     for batch in tqdm(eval_dataloader, desc="Evaluating"):
