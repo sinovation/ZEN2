@@ -404,6 +404,7 @@ def convert_examples_to_features(examples, label_list, max_seq_length, tokenizer
     """Loads a data file into a list of `InputBatch`s."""
 
     label_map = {label: i for i, label in enumerate(label_list, 1)}
+    label_map["[PAD]"] = 0
 
     features = []
     b_use_valid_filter = False
@@ -746,6 +747,7 @@ def evaluate(args, model, tokenizer, ngram_dict, processor, label_list, device, 
     y_true = []
     y_pred = []
     label_map = {i: label for i, label in enumerate(label_list, 1)}
+    label_map[0] = "[PAD]"
     nb_tr_examples, nb_tr_steps = 0, 0
 
     for batch in tqdm(eval_dataloader, desc="Evaluating"):
