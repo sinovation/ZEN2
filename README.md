@@ -43,5 +43,5 @@ The library comprises several example scripts for conducting [**Chinese/Arabic N
 
 For help or issues using ZEN 2.0, please submit a GitHub issue.
 
-For personal communication related to ZEN 2.0, please contact Yuanhe Tian (`yhtian@uw.edu`).
+For personal communication related to ZEN 2.0, please contact Yuanhe Tian (`yhtian94@gmail.com`).
 
